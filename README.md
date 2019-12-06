@@ -1,9 +1,10 @@
 # Mitra Reptir
 [![NPM](https://nodei.co/npm/mitra-reptir.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/mitra-reptir/)  
-  
+
 [![npm version](https://img.shields.io/npm/v/mitra-reptir.svg?style=flat-square)](https://www.npmjs.org/package/mitra-reptir)
 ![NPM download/month](https://img.shields.io/npm/dm/mitra-reptir.svg)
 ![NPM download total](https://img.shields.io/npm/dt/mitra-reptir.svg)
+
 Mitra Reptir is a library for NodeJS (support typescript). 
 
 ## Install using NPM
