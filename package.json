@@ -1,0 +1,35 @@
+{
+  "name": "mitra-reptir",
+  "version": "1.0.0",
+  "description": "Mitra Reptir library for NodeJS",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "omawang <mas.awank100@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "tslint": "^5.20.1",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omawang/mitra-reptir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omawang/mitra-reptir/issues"
+  },
+  "homepage": "https://github.com/omawang/mitra-reptir#readme",
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
