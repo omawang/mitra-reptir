@@ -5,6 +5,7 @@
 ![NPM download/month](https://img.shields.io/npm/dm/mitra-reptir.svg)
 ![NPM download total](https://img.shields.io/npm/dt/mitra-reptir.svg)
 
+[Reptir](https://reptir.com/) is a payment and ppob indonesia service.
 Mitra Reptir is a library for NodeJS (support typescript). 
 
 ## Install using NPM
