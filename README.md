@@ -38,7 +38,7 @@ const reptir = new MitraReptir('YOUR-API-KEY')
 - `productDetail('code')` this is to get product detail
 - `buyProduct('code', 'dest', 'ref')` this is to buy product (`ref` is optional)
 - `ppobData()` this is to get PPOB Data
-- `ppobInquiry('code', 'dest', 'ref')` this is to get PPOB Inquiry (`ref` is optional)
+- `ppobInquiry(args)` this is to get PPOB Inquiry (`ref` is optional).
 - `ppobPayment('inquiry', 'ref')` this is to pay the PPOB Inquiry (`ref` is optional)
 
 ### Example
@@ -91,12 +91,24 @@ try {
 #### PPOB Inquiry
 ```javascript
 try {
-  const result = await reptir.ppobInquiry('code', 'dest', 'ref')
+  const result = await reptir.ppobInquiry(args)
 } catch (e) {
   console.log(e)
 }
+
+/*
+args = {
+  code: string
+  dest: string
+  ref?: string | ''
+  options?: {
+    phone?: string
+    period?: number
+  }
+}
+*/
 ```
-param `ref` is optional
+**if your `code` === `BPJSKES`, set the `options` inside `args`**
 
 #### PPOB Payment
 ```javascript
